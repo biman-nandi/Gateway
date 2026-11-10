@@ -1,4 +1,4 @@
-# 01_Gateway
+# Gateway
 
 A full-stack web application featuring user authentication and account management with a modern, responsive user interface.
 
