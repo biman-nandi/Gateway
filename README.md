@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 01_Gateway
+
+A full-stack web application featuring user authentication and account management with a modern, responsive user interface.
+
+## Features
+
+- User Registration (Signup)
+- User Login
+- Password Reset
+- Secure Password Hashing
+- Form Validation
+- API Integration
+- Responsive User Interface
+- User Authentication and Session Management
+
+## Tech Stack
+
+- **Frontend:** Next.js, React.js
+- **Styling:** CSS / Tailwind CSS
+- **HTTP Client:** Axios
+- **Notifications:** React Hot Toast
+- **Authentication:** JWT / bcrypt (if configured in your backend)
+- **Backend:** Node.js / Express.js (if applicable)
+- **Database:** Add your database here
+
+## Project Structure
+
+```text
+01_gateway/
+├── app/
+├── components/
+├── public/
+├── package.json
+├── README.md
+└── ...
+```
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/biman-nandi/gateway.git
+```
+
+### 2. Navigate to the Project
+
+```bash
+cd 01_gateway
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure Environment Variables
+
+Create a `.env.local` file in the project root and add the required environment variables.
+
+```env
+# Add your environment variables here
+```
+
+### 5. Run the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command | Description |
+|---|---|
+| `npm run dev` | Start development server |
+| `npm run build` | Build production application |
+| `npm run start` | Start production server |
+| `npm run lint` | Run lint checks (if configured) |
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions, issues, and feature requests are welcome.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is available for educational and development purposes.
